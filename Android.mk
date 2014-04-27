@@ -14,6 +14,9 @@
 
 LOCAL_PATH := $(call my-dir)
 
+#Extra BoardConfig flags
+include $(commands_recovery_local_path)/boardconfig/BoardConfig.mk
+
 TARGET_RECOVERY_GUI := true
 
 LOCAL_SRC_FILES := \
